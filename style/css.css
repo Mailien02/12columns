@@ -1,0 +1,130 @@
+@charset "utf-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+body{
+	font-family: 'Ubuntu', sans-serif;
+}
+.logo img{
+	width:178px;
+}
+.nav{
+	height:100%;
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+}
+.nav ul{
+	list-style: none;
+	display: flex;
+}
+.nav li{
+	margin-left:40px;
+}
+.nav li a{
+	color:#1f1f1f;
+	font-weight:bold;
+	text-decoration: none;
+}
+.nav li a:hover{
+	opacity: 0.8;
+}
+/*header*/
+.content-banner{
+	margin-bottom: 15px;
+}
+.content-banner h1{
+	font-size:44px;
+}
+.line{
+	height:3px;
+	width:50px;
+	background:#B7B3B3;
+	margin:28px 0;
+}
+.content-banner p{
+	font-size:20px;
+	margin-bottom:54px;
+}
+.btn{
+/*	background: #6C63FF;*/
+	padding: 15px 40px;
+	text-decoration: none;
+}
+.btn-primary{
+	background: #6C63FF;
+	border:1.5px solid #353434;
+	color:white;
+}
+.btn-outline{
+	border:1.5px solid #B7B3B3;
+	color: #000000;
+
+}
+.banner img{
+	width: 509px;
+}
+/*banner*/
+.how-it-works{
+	width:100px 0;
+}
+.title{
+	text-align: center;
+}
+.title h1{
+	font-size:44px;
+}
+.title p{
+	font-size:20px;
+}
+.title .line{
+	margin: 28px auto;
+}
+/*title how it works*/
+.app{
+	text-align: center;
+}
+.feature-img img{
+	width: 207px;
+}
+.app h1{
+	font-size:27px;
+	margin:32px 0 12px;
+}
+.app p{
+	font-size:14px;
+}
+/*app*/
+.ream-more{
+	background: #F6F5F5;
+	padding: 51px 0 156px;
+}
+.ream-more img{
+	width: 380px;
+}
+.ream-more h1{
+	font-size: 40px;
+	font-weight:400;
+	color: #000000;
+}
+.ream-more p{
+	font-size:20px;
+	color: #000000;
+	padding: 30px 0 17px;
+}
+.ream{
+	font-size:22px;
+	font-weight:600px;
+	color:#6C63FF;
+}
+/*ream-more*/
+.footer{
+	text-align: center;
+	padding: 36px 0 31px;
+}
+.footer p{
+	font-size:18px;
+	font-weight: 600px;
+}
+.footer img{
+	width:113px;
+}
